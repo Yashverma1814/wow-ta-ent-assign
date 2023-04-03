@@ -38,11 +38,43 @@
 
 .sidebarSub{
   display: flex;
-  padding: 0.35rem;
+  padding: 0.32rem;
+  padding-left: 0.8rem;
+  font-size: 0.8rem;
   flex-direction: row;
 }
 .logo{
+  font-size: 0.9rem;
   margin-left: 0.7rem;
   margin-right: 0.4rem;
 }
-
+.optionName{
+  margin-top: 0.2rem;
+}
+.headingMain{
+  display: flex;
+  flex-direction: row;
+  padding: 0.35rem;
+}
+.headingLogo{
+  margin-left: 0.55rem;
+  margin-right: 0.4rem;
+}
+.heading1{
+  color: orangered;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-right: 0.3rem;
+  font-weight: 700;
+}
+.heading2{
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-right: 0.3rem;
+  font-weight: 700;
+}
+.sidebarMain{
+  width: 27.5%;
+  background-color: rgb(68, 68, 68);
+  color: white;
+}

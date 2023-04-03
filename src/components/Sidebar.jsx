@@ -7,11 +7,11 @@ export const Sidebar = () => {
 
 
   return (
-    <div>
+    <div className='sidebarMain'>
       <div className='headingMain'>
-        <span className='headingLogo'><LocalFireDepartmentOutlinedIcon /></span>
-        <span className='heading1'>WOW</span>
-        <span className='heading2'>TALENT</span>
+        <div className='headingLogo'><LocalFireDepartmentOutlinedIcon   style={{fontSize:'2rem'}}/></div>
+        <div className='heading1'>WOW </div>
+        <div className='heading2'>TALENT</div>
       </div>
       <div>
         {
