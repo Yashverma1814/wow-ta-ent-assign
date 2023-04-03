@@ -74,7 +74,37 @@
   font-weight: 700;
 }
 .sidebarMain{
-  width: 27.5%;
   background-color: rgb(68, 68, 68);
   color: white;
+}
+.navInfoPartLogo{
+  width: 2rem;
+  text-align: center;
+  border-radius: 110%;
+  padding: 0.7rem;
+  background-color: white;
+  margin: 1rem;
+}
+.infoPanelMain{
+  background-color: rgb(68, 68, 68);
+  margin-left: 1.25%;
+  margin-top: 1.25%;
+  margin-right: 1.25%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.count{
+  color: white;
+}
+.nameOfCount{
+  color: white;
+  font-size: 0.8rem;
+}
+.infoPartAbout{
+  margin-top: 1.2rem;
+}
+.homePageMain{
+  display: grid;
+  grid-template-columns: 15% 85%;
+  background-color: black;
 }
